@@ -1,0 +1,34 @@
+React Top 10 plugin(Visual Studio Code)
+
+ Advanced New File 
+ Atom One Dark Theme
+ Auto Close Tag 
+ Babel Javascript
+ Oceanic Next Theme 
+Color Highlight 
+Color Picker 
+Document This 
+Git Lens 
+Guides & Indent Rainbow 
+Lorem Ipsum Generator
+Material Icon Theme 
+Path Intellisense 
+Quokka.js 
+Rainbow Brackets 
+React Native Tools 
+Todo Highlight 
+Version Lens 
+Custom Snippets﻿
+
+
+
+
+React developer için önerilen 5 eklenti(Visual Studio Code)
+
+React-Native/React/Redux snippets for es6/es7 
+Auto Import
+React Pure To Class
+JavaScript (ES6) code snippets
+Import Cost
+Learn React
+Debugger for Chrome
