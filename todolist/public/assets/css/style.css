@@ -71,9 +71,9 @@ input:focus, textarea:focus, select:focus, button:focus {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/lato/lato-v13-latin_latin-ext-regular.eot?v=122");
+  src: url("../fonts/lato/lato-v13-latin_latin-ext-regular.eot?v=122");
   /* IE9 Compat Modes */
-  src: local("Lato Regular"), local("Lato-Regular"), url("../../fonts/lato/lato-v13-latin_latin-ext-regular.eot?v=122#iefix") format("embedded-opentype"), url("../../fonts/lato/lato-v13-latin_latin-ext-regular.woff2?v=122") format("woff2"), url("../../fonts/lato/lato-v13-latin_latin-ext-regular.woff?v=122") format("woff"), url("../../fonts/lato/lato-v13-latin_latin-ext-regular.ttf?v=122") format("truetype"), url("../../fonts/lato/lato-v13-latin_latin-ext-regular.svg?v=122#Lato") format("svg");
+  src: local("Lato Regular"), local("Lato-Regular"), url("../fonts/lato/lato-v13-latin_latin-ext-regular.eot?v=122#iefix") format("embedded-opentype"), url("../fonts/lato/lato-v13-latin_latin-ext-regular.woff2?v=122") format("woff2"), url("../fonts/lato/lato-v13-latin_latin-ext-regular.woff?v=122") format("woff"), url("../fonts/lato/lato-v13-latin_latin-ext-regular.ttf?v=122") format("truetype"), url("../fonts/lato/lato-v13-latin_latin-ext-regular.svg?v=122#Lato") format("svg");
   /* Legacy iOS */ }
 
 .container {

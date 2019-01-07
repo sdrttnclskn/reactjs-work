@@ -3,25 +3,27 @@ import React from 'react';
 export class TodoList extends React.Component {
     constructor() {
         super();
-        this.doneTask = this.doneTask.bind(this);
-        this.removeTask = this.removeTask.bind(this);
 
     }
-    doneTask(e) {
-        console.log('Task Tamamlandı.');
-    }
-    removeTask(e) {
-        console.log('Task Silindi.');
+    doneTask = (e) => {
 
+        this.props.doneTask(e.target.parentNode.id);
+    }
+    removeTask = (e) => {
+        this.props.removeTask(e.target.parentNode.id);
     }
 
     render() {
-        const items_left = 0;
+        let items_left = 0;
         const items = this.props.myTasks.map((elem, i) => {
+            if (elem.status === 'passive') {
+                items_left++;
+            }
+            let task_id = "task_" + i;
             return (
-                <li key={i}>
+                <li key={i} id={task_id} className={elem.status}>
                     <span className="id">{i + 1}</span>
-                    <span className="title">{elem}</span>
+                    <span className="title">{elem.text}</span>
                     <span className="type" onClick={this.doneTask} />
                     <span className="delete" onClick={this.removeTask} />
                 </li>
